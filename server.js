@@ -89,15 +89,6 @@ passport.use(new passportLocal(
 
           return done(null,a);
      });
-
-        // if(username!=userconfig.username)
-        // {   console.log("invalid username");
-        //     return done(null,false);}
-        // if(password!=userconfig.password)
-        // {    console.log("invalid password");
-        //     return  done(null,false);}
-
-
     }
 ));
 
